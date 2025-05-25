@@ -1,4 +1,5 @@
-#title {
+/* Main page */
+.title {
     font-size: 100px;
     font-family: Arial, Helvetica;
     text-align: center;
@@ -28,4 +29,53 @@
 
 .button:hover {
     background-color: gray;
+}
+
+/* Sub pages */
+
+.recTitle {
+    font-size: 75px;
+    font-family: Arial, Helvetica;
+}
+
+.image {
+    width: 600px;
+    height: auto;
+    display: inline;
+}
+
+.info {
+    align-items: flex-start;
+    display: flex;
+    margin: 50px;
+    box-sizing: border-box;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-top: -150px;
+}
+
+.des, 
+.subTitle {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.des {
+    font-size: 50px;
+}
+
+.subTitle {
+    font-size: 30px;
+}
+
+.ingList,
+.stepList {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
